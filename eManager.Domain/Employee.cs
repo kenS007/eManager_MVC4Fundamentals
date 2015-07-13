@@ -10,6 +10,8 @@ namespace eManager.Domain
     {
         public virtual int Id { get; set; }
         public virtual string name { get; set; }
+        public virtual DateTime? HireDate { get; set; }
+
         
     }
 }
